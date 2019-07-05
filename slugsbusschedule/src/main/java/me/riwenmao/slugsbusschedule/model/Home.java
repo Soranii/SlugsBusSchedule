@@ -1,4 +1,4 @@
-package me.riwenmao.slugsbusschedule;
+package me.riwenmao.slugsbusschedule.model;
 
 public class Home {
 

@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - App",
+            "request": "launch",
+            "mainClass": "me.riwenmao.slugsbusschedule.App",
+            "projectName": "slugs-bus-schedule"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "me.riwenmao.slugsbusschedule.Main",
+            "projectName": "slugs-bus-schedule"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<slugs-bus-schedule>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "me.riwenmao.slugsbusschedule.Application",
+            "projectName": "slugs-bus-schedule",
+            "args": ""
+        }
+    ]
+}
