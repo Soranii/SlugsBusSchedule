@@ -1,5 +1,8 @@
 package me.riwenmao.slugsbusschedule.BusCard;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class BusCard {
 
     private String id;
@@ -9,6 +12,10 @@ public class BusCard {
 
     //contstructors
     public BusCard(){
+    }
+
+    public BusCard(String location){
+        //based on residential college location, return BusCard of neareast line
     }
 
     public BusCard(String id, String name, String arrivalTime, String arrivalLocation){
@@ -50,6 +57,17 @@ public class BusCard {
 
     public void setArrivalLocation(String arrivalLocation){
         this.arrivalLocation = arrivalLocation;
+    }
+
+    public static List<BusCard> getAll(){
+        //return results from query for all bus lines
+
+        //for now hard code
+        BusCard a = new BusCard("16", "16", "10:00 AM", "UCSC/Science Hill");
+        BusCard b = new BusCard("19", "19", "5:00 PM", "UCSC/Science Hill");
+        BusCard c = new BusCard("20", "20", "9:00 AM", "UCSC/Science Hill");
+
+        return Arrays.asList(a, b, c);
     }
 
 }

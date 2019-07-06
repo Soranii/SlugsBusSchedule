@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -22,15 +22,15 @@
 
             <link type="text/css" rel="stylesheet" href="/site.css">
     </head>
-    <body class="text-center">
+    <body class="content text-center">
 
             <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
                     <header class="masthead mb-auto">
                       <div class="inner">
                         <h3 class="masthead-brand">Slug Bus</h3>
                         <nav class="nav nav-masthead justify-content-center">
-                          <a class="nav-link active" href="#">Home</a>
-                          <a class="nav-link" href="#">Bus Schedules</a>
+                          <a class="nav-link active" href="">Home</a>
+                          <a class="nav-link" th:href="@{BusCard}">Bus Schedules</a>
                           <a class="nav-link" href="https://www.scmtd.com/en/routes/20194/UC/wd">Santa Cruz Metro</a>
                         </nav>
                       </div>
