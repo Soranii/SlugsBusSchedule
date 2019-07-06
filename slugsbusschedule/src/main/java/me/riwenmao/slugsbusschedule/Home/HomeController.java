@@ -1,4 +1,4 @@
-package me.riwenmao.slugsbusschedule.controller;
+package me.riwenmao.slugsbusschedule.Home;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.beans.factory.annotation.Value;
